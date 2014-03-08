@@ -1,0 +1,2 @@
+{"int":42,"string":"foo","array":[1,2,3],"object":{"test":"passed"}}
+{"wat":"Second object is being parsed too."}
