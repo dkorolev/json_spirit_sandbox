@@ -8,7 +8,7 @@ CPPFLAGS+= -DBOOST_NO_RVALUE_REFERENCES
 all: test
 
 test: json.txt binary
-	cat json.txt | ./binary
+	cat $< | ./binary
 
 binary: test.cc
 	${CPP11} ${CPPFLAGS} -o $@ $<
